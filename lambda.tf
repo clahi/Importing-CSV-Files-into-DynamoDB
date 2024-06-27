@@ -44,7 +44,7 @@ resource "aws_iam_policy" "lambdaS3Policy" {
         "Action" : [
           "dynamodb:*"
         ],
-        "Resource" : "arn:aws:dynamodb:us-east-1:851725188350:table/Movies"
+        "Resource" : "*"
       }
     ]
   })
